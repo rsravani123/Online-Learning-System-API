@@ -1,0 +1,97 @@
+/* ==== Course List Styling ==== */
+
+.course-list {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.course-list h3 {
+  margin-bottom: 16px;
+  font-size: 22px;
+  color: #34495e;
+}
+
+.course-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.course-list li {
+  background-color: #f8f9fa;
+  padding: 15px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: 1px solid #dee2e6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.course-list li strong {
+  font-size: 18px;
+  color: #2c3e50;
+}
+
+/* Enroll button */
+.enroll-button {
+  background-color: #3498db;
+  border: none;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.enroll-button:hover {
+  background-color: #2980b9;
+}
+
+.enroll-button[disabled] {
+  background-color: #2ecc71;
+  cursor: not-allowed;
+}
+
+
+/* ==== Add Course Form Styling ==== */
+
+.add-course-form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.add-course-form h3 {
+  margin-bottom: 16px;
+  font-size: 22px;
+  color: #34495e;
+}
+
+.add-course-form input,
+.add-course-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.add-course-form button {
+  background-color: #27ae60;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.add-course-form button:hover {
+  background-color: #1e8449;
+}
